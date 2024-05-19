@@ -1,0 +1,180 @@
+HTML CODE:
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALNUR.ORG</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="krug"></div>
+    <section class="navbar" id="home">
+        <div class="logo"><b>ALNUR.ORG</b></div>   
+        <a class="logo2" href="#aboutme">About me</a>      
+    </section>
+    <section class="hero">
+        <div class="korobka">
+            <div>
+                <h2>NSPM Student</h2>
+                <h1>Alnur Nurlanov</h1>
+            </div>
+        </div>
+        <div class="korobka1">
+            <img src="">
+        </div>
+    </section>
+    
+    
+    <section class="navbar" id="aboutme">
+        <a class="logo1" href="#home">ALNUR.ORG</a> 
+    </section>
+    <section class="hero">
+        <div class="korobka">
+            <div>
+                <h2>NSPM Student</h2>
+                <h1>Alnur Nurlanov</h1>
+            </div>
+        </div>
+        <div class="korobka">
+            <img src="">
+        </div>
+    </section>
+    
+    
+    
+</body>
+</html>
+
+
+
+
+
+CSS CODE:
+
+.korobka{
+    height: 80vh;
+    margin: 15px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.korobka1{
+    height: 110vh;
+    margin: 15px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero{
+    background-color: #f7f7f7;
+    display: flex;
+    color: #638889;
+    height: 99vh;
+}
+h1{
+    margin: 0;
+    font-family: "Kanit", sans-serif;
+    font-size: 100px;
+    margin: 15px 0 15px 0;
+}
+h2{
+    margin: 0;
+    font-family: "Kanit", sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+img{
+    z-index: 2;
+    width: 70%;
+    margin: 0 -46px 0 50px;
+}
+.logo1{
+    text-decoration: none;
+    margin: 0;
+    font-family: "Kanit", sans-serif;
+    color: black;
+    font-size: 30px;
+    margin: 0 50px 0 50px;
+    font-weight: bold;
+}
+.logo2{
+    margin: 0;
+    font-family: "Kanit", sans-serif;
+    color: black;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 0 50px 0 50px;
+}
+.prizrak{
+    width: 80px;
+    position: absolute;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    height: 80px;
+}
+.logo{
+    margin: 0;
+    font-family: "Kanit", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0 50px 0 50px;
+}
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 0 0 50px;
+}
+.krug{
+    z-index: 1;
+    top: 200px;
+    left: calc(50% + 50px);
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    background: #638889;
+    border-radius: 100%;   
+}
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="krug"></div>
+    <section class="navbar" id="aboutme">
+        <a class="logo1" href="index.html">ALNUR.ORG</a> 
+    </section>
+    <section class="hero">
+        <div class="korobka2">
+            <div class="text1">
+                <h2>Hello! My name is Alnur, I was born in Almaty, Kazakhstan in 2009. Since my childhood I loved Lego and maths. In 4th grade I won the school math Olympiad. My school was weak in maths and so I went to NSPM-National School of Physics and Math. I am writing this blog in 8th grade, having created a website that acts as my portfolio. </h2>
+            </div>
+        </div>
+        <div class="img1">
+            <img src="">
+        </div>
+    </section>
+</body>
+</html>
